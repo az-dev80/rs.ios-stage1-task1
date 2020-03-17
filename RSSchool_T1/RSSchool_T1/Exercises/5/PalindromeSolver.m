@@ -4,7 +4,7 @@
 
 // Complete the highestValuePalindrome function below.
 - (NSString *) highestValuePalindrome:(NSString *)s n:(NSNumber *)n k:(NSNumber *)k {
-    return @"";
+    return @"-1";
 }
 
 @end

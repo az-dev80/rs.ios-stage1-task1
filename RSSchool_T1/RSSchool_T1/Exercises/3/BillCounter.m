@@ -10,7 +10,7 @@
     NSInteger value = [sum integerValue];
     NSInteger rmv = [[bill objectAtIndex:k] integerValue];
     
-    int long x=(mySum - rmv)*(1/2);
+    int long x=(mySum - rmv)/2;
     int long y=(value - x);
     NSString *result= [NSString stringWithFormat:@"%ld", (long)y];
     if (x==value) {

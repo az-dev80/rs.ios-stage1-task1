@@ -41,12 +41,7 @@
     XCTAssertFalse(flag);
 }
 
-- (void)test5 {
-    NSArray *array = @[];
-    NSArray *result = @[];
-    bool flag = [result isEqualToArray:[[T1Array new] convertToHappy: array]];
-    XCTAssertTrue(flag);
-}
+
 
 
 @end
